@@ -11,6 +11,10 @@ A Flask Application that performs the sentiment prediction of the given review
 * `sentiment-analyzer-training-notebook.ipynb` is the training notebook
     
 * `model` folder contains the trained model and tokenizer
+
+      Model's Accuracy = 88.807 %
+
+      Model's Loss = 0.274
       
 * `templates` folder contains the html files
 
