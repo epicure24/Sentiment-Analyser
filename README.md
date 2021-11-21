@@ -48,3 +48,15 @@ A Flask Application that performs the sentiment prediction of the given review
 
        gunicorn -b 0.0.0.0:5000 app:app --access-logfile access.log --error-logfile error.log --max-requests 10 --timeout 120 --daemon
        
+## Application Screenshots
+
+INPUT SCREEN
+
+![Input Screen](https://github.com/epicure24/Sentiment-Analyser/blob/main/images/input_screen.png)
+
+RESULT SCREENS
+
+![Positive Screen](https://github.com/epicure24/Sentiment-Analyser/blob/main/images/positive.png)
+
+![Negative Screen](https://github.com/epicure24/Sentiment-Analyser/blob/main/images/negative.png)
+       
