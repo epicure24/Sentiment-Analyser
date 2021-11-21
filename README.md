@@ -1,6 +1,8 @@
 # Sentiment Analyser Application
 
-A Flask Application that performs the sentiment prediction of the given review
+A Flask Application that performs the sentiment prediction of the given review.
+
+The application can be used via `API` as well as `Web Application`
 
 ## Files and Folder Information
 
@@ -32,6 +34,7 @@ A Flask Application that performs the sentiment prediction of the given review
 
        pip install -r requirements.txt
        
+
  ## How to run the application on localhost ?
        
  * Run the flask application on localhost
@@ -51,6 +54,30 @@ A Flask Application that performs the sentiment prediction of the given review
  * Run the flask application using Gunicorn server
 
        gunicorn -b 0.0.0.0:5000 app:app --access-logfile access.log --error-logfile error.log --max-requests 10 --timeout 120 --daemon
+       
+*****************************************
+
+# RUN IT AS AN API SERVICE
+
+* Open API Running tool like `Postman`.
+
+* Run the following API
+
+      URL = localhost:5000/api/detect 
+      
+      Method = POST
+      
+      Body ( form-data )
+      
+           review = "<review text>"
+      
+* See the below screenshot
+
+![Input Screen](https://github.com/epicure24/Sentiment-Analyser/blob/main/images/postman.png)
+
+**************************************
+
+# RUN IT AS A WEB APPLICATION
        
 ## Application Screenshots
 
