@@ -42,6 +42,8 @@ A Flask Application that performs the sentiment prediction of the given review
        
        pip install gunicorn
        
+ * Create `access.log` and `error.log` file
+ 
  * Run the flask application using Gunicorn server
 
        gunicorn -b 0.0.0.0:5000 app:app --access-logfile access.log --error-logfile error.log --max-requests 10 --timeout 120 --daemon
